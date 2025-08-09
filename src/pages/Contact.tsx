@@ -70,21 +70,21 @@ const Contact = () => {
       icon: Mail,
       title: "Email Us",
       description: "For general inquiries and support",
-      value: "contact@pevehealth.ai",
-      action: "mailto:contact@pevehealth.ai"
+      value: "hanotianilesh@gmail.com",
+      action: "mailto:hanotianilesh@gmail.com"
     },
     {
       icon: Phone,
       title: "Call Us",
       description: "Speak directly with our team",
-      value: "+1 (555) 123-4567",
-      action: "tel:+15551234567"
+      value: "+91-9925537229",
+      action: "tel:+919926637229"
     },
     {
       icon: MapPin,
       title: "Visit Us",
       description: "Our headquarters location",
-      value: "Silicon Valley, CA",
+      value: "Ahmedabad, India",
       action: ""
     },
     {

@@ -24,15 +24,15 @@ const Footer = () => {
             <div className="flex flex-col space-y-2 text-sm text-muted-foreground">
               <div className="flex items-center space-x-2">
                 <Mail className="h-4 w-4" />
-                <span>contact@pevehealth.ai</span>
+                <span>hanotianilesh@gmail.com</span>
               </div>
               <div className="flex items-center space-x-2">
                 <Phone className="h-4 w-4" />
-                <span>+1 (555) 123-4567</span>
+                <span>+91-9925537229</span>
               </div>
               <div className="flex items-center space-x-2">
                 <MapPin className="h-4 w-4" />
-                <span>Silicon Valley, CA</span>
+                <span>Ahmedabad, India</span>
               </div>
             </div>
           </div>
