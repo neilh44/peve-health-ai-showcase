@@ -1,13 +1,31 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+import HeroSection from '@/components/Home/HeroSection';
+import ModelShowcase from '@/components/Home/ModelShowcase';
+import { Helmet } from 'react-helmet-async';
 
 const Index = () => {
   return (
-    <div className="min-h-screen flex items-center justify-center bg-background">
-      <div className="text-center">
-        <h1 className="text-4xl font-bold mb-4">Welcome to Your Blank App</h1>
-        <p className="text-xl text-muted-foreground">Start building your amazing project here!</p>
+    <>
+      <Helmet>
+        <title>PeVe-Health | AI Medical Diagnostics - Revolutionizing Healthcare with AI</title>
+        <meta 
+          name="description" 
+          content="PeVe-Health delivers cutting-edge AI models for healthcare diagnostics. Our flagship pneumonia detection system achieves 100% accuracy with automated medical report generation." 
+        />
+        <meta name="keywords" content="AI healthcare, medical diagnostics, pneumonia detection, medical AI, chest X-ray analysis" />
+        <link rel="canonical" href="https://pevehealth.ai" />
+        
+        {/* Open Graph */}
+        <meta property="og:title" content="PeVe-Health | AI Medical Diagnostics" />
+        <meta property="og:description" content="Revolutionizing healthcare diagnostics with AI-powered precision. 100% accuracy in pneumonia detection." />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://pevehealth.ai" />
+      </Helmet>
+
+      <div>
+        <HeroSection />
+        <ModelShowcase />
       </div>
-    </div>
+    </>
   );
 };
 
